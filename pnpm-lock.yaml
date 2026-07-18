@@ -5,6 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
+  sanitize-html@2.17.6>htmlparser2: 10.1.0
   difflib: https://codeload.github.com/postlight/difflib.js/tar.gz/32e8e38c7fcd935241b9baab71bb432fd9b166ed
   es-set-tostringtag: npm:@nolyfill/es-set-tostringtag@^1
   google-play-scraper>got: ^14.6.4
@@ -11521,7 +11522,7 @@ snapshots:
     dependencies:
       deepmerge: 4.3.1
       escape-string-regexp: 4.0.0
-      htmlparser2: 12.0.0
+      htmlparser2: 10.1.0
       is-plain-object: 5.0.0
       launder: 1.7.1
       parse-srcset: 1.0.2
@@ -12426,3 +12427,4 @@ snapshots:
   zod@4.4.3: {}
 
   zwitch@2.0.4: {}
+
